@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    display:flex;
+    justify-content: center;
+}
+.cabecalho-logo {
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+}
+.cabecalho-logo:hover {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    transition-duration: 0.3s;
+}
+.container {
+    width: 990px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    gap: 25px
+}
+.menu-item {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    transition-duration: 0.3s;
+}
+.menu-item:hover {
+    color: rgb(0, 174, 255);
+}
+#banner {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    background-image:url("../images/background1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    color: white;
+}
+.container .column {
+    flex-direction: column;
+}
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.banner-botao {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 174, 255);
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+#about {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.about-review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.card1, .card2, .card3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    color: rgb(59, 59, 59);
+    text-align: justify;
+    background-color: rgb(245, 245, 245);
+    transition-duration: 0.3s;
+}
+.card1:hover, .card2:hover, .card3:hover {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.card1, .card3 {
+    margin-top: 60px;
+}
+.card1-img, .card2-img, .card3-img {
+    width: 50px;
+}
+
+#product {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.product {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: rgb(184, 227, 252);
+    border-radius: 25px;
+}
+.product-img {
+    width: 300px;
+}
+.product-info {
+    width: 450px;
+}
+.product-info h1 {
+    color: rgb(255, 255, 255);
+}
+.product-info {
+    width: 350px;
+    text-align: justify;
+}
+.product-info button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 1px 5px grey;
+}
+#product2 {
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+.product2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product2-text h1 {
+    font-size: 60px;
+}
+.product2-text h2 {
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    height: 100px;
+}
+.social-media-icon {
+    width: 40px;
+}
+.rodape-info {
+    display: flex;
+    flex-direction: row;
+}
